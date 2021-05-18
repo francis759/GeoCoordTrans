@@ -1,0 +1,135 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="GeoCoordTrans_v2._1.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Constring" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source="|DataDirectory|\cdb.mdb";Persist Security Info=True</Value>
+    </Setting>
+    <Setting Name="register" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SOFTWARE\\Umbrella Technology\\GeoCoordTrans</Value>
+    </Setting>
+    <Setting Name="pageInfo" Type="System.String[]" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Input - Make CSV file&lt;/string&gt;
+  &lt;string&gt;Input - Select file&lt;/string&gt;
+  &lt;string&gt;Input - Select separator&lt;/string&gt;
+  &lt;string&gt;Input - Coordinate type&lt;/string&gt;
+  &lt;string&gt;Input - Activate fieldnames&lt;/string&gt;
+  &lt;string&gt;Input - Select fieldnames&lt;/string&gt;
+  &lt;string&gt;Input - Coordinate system&lt;/string&gt;
+  &lt;string&gt;Input - Unit&lt;/string&gt;
+  &lt;string&gt;Output - Select file&lt;/string&gt;
+  &lt;string&gt;Output - Coordinate type&lt;/string&gt;
+  &lt;string&gt;Output - Coordinate system&lt;/string&gt;
+  &lt;string&gt;Output - Unit&lt;/string&gt;
+  &lt;string&gt;Convert&lt;/string&gt;
+  &lt;string&gt;Finish&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="XNames" Type="System.String[]" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Easting&lt;/string&gt;
+  &lt;string&gt;EASTING&lt;/string&gt;
+  &lt;string&gt;EAST&lt;/string&gt;
+  &lt;string&gt;X&lt;/string&gt;
+  &lt;string&gt;x&lt;/string&gt;
+  &lt;string&gt;Longitude&lt;/string&gt;
+  &lt;string&gt;longitude&lt;/string&gt;
+  &lt;string&gt;easting&lt;/string&gt;
+  &lt;string&gt;E&lt;/string&gt;
+  &lt;string&gt;East&lt;/string&gt;
+  &lt;string&gt;east&lt;/string&gt;
+  &lt;string&gt;e&lt;/string&gt;
+  &lt;string&gt;long&lt;/string&gt;
+  &lt;string&gt;Lng&lt;/string&gt;
+  &lt;string&gt;LNG&lt;/string&gt;
+  &lt;string&gt;lng&lt;/string&gt;
+  &lt;string&gt;Long&lt;/string&gt;
+  &lt;string&gt;LONG&lt;/string&gt;
+  &lt;string&gt;LON&lt;/string&gt;
+  &lt;string&gt;Lon&lt;/string&gt;
+  &lt;string&gt;lon&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="YNames" Type="System.String[]" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Northing&lt;/string&gt;
+  &lt;string&gt;NORTH&lt;/string&gt;
+  &lt;string&gt;LATITUDE&lt;/string&gt;
+  &lt;string&gt;Y&lt;/string&gt;
+  &lt;string&gt;y&lt;/string&gt;
+  &lt;string&gt;Latitude&lt;/string&gt;
+  &lt;string&gt;latitude&lt;/string&gt;
+  &lt;string&gt;northing&lt;/string&gt;
+  &lt;string&gt;N&lt;/string&gt;
+  &lt;string&gt;North&lt;/string&gt;
+  &lt;string&gt;north&lt;/string&gt;
+  &lt;string&gt;n&lt;/string&gt;
+  &lt;string&gt;lat&lt;/string&gt;
+  &lt;string&gt;Lat&lt;/string&gt;
+  &lt;string&gt;lat&lt;/string&gt;
+  &lt;string&gt;LAT&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="ZNames" Type="System.String[]" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Height&lt;/string&gt;
+  &lt;string&gt;HEIGHT&lt;/string&gt;
+  &lt;string&gt;height&lt;/string&gt;
+  &lt;string&gt;Z&lt;/string&gt;
+  &lt;string&gt;z&lt;/string&gt;
+  &lt;string&gt;Elevation&lt;/string&gt;
+  &lt;string&gt;Elev&lt;/string&gt;
+  &lt;string&gt;elev&lt;/string&gt;
+  &lt;string&gt;ELEV&lt;/string&gt;
+  &lt;string&gt;ELEVATION&lt;/string&gt;
+  &lt;string&gt;elevation&lt;/string&gt;
+  &lt;string&gt;ALT&lt;/string&gt;
+  &lt;string&gt;alt&lt;/string&gt;
+  &lt;string&gt;ALTITUDE&lt;/string&gt;
+  &lt;string&gt;Altitude&lt;/string&gt;
+  &lt;string&gt;altitude&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="IDNames" Type="System.String[]" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;ID&lt;/string&gt;
+  &lt;string&gt;id&lt;/string&gt;
+  &lt;string&gt;iD&lt;/string&gt;
+  &lt;string&gt;Id&lt;/string&gt;
+  &lt;string&gt;pointid&lt;/string&gt;
+  &lt;string&gt;Point ID&lt;/string&gt;
+  &lt;string&gt;Pt_ID&lt;/string&gt;
+  &lt;string&gt;PT_ID&lt;/string&gt;
+  &lt;string&gt;_ID&lt;/string&gt;
+  &lt;string&gt;ptID&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="PageInfo2" Type="System.String[]" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Input database - select database&lt;/string&gt;
+  &lt;string&gt;Select output table&lt;/string&gt;
+  &lt;string&gt;Input table - select table&lt;/string&gt;
+  &lt;string&gt;Input table - type&lt;/string&gt;
+  &lt;string&gt;Input table - select columns&lt;/string&gt;
+  &lt;string&gt;Input table - select system&lt;/string&gt;
+  &lt;string&gt;Input table - select unit&lt;/string&gt;
+  &lt;string&gt;Output table - enter name&lt;/string&gt;
+  &lt;string&gt;Output table - type&lt;/string&gt;
+  &lt;string&gt;Output table - system&lt;/string&gt;
+  &lt;string&gt;Output table - Select unit&lt;/string&gt;
+  &lt;string&gt;Convert&lt;/string&gt;
+  &lt;string&gt;Finish&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="Protection" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SOFTWARE\\Umbrella Technology\\Protection</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
